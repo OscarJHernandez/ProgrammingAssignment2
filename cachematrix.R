@@ -55,7 +55,7 @@ cacheSolve <- function(x, ...) {
   m <- solve(data, ...)
   
   # Now we set the Inverse Matrix, and store it in x
-  x$setmean(m)
+  x$setInverse(m)
   
   # Return the Calculated Matrix
   m
